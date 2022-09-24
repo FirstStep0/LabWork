@@ -139,7 +139,7 @@ namespace LabWork
 
                 //fill table values
                 while (reader.Peek() > -1) {
-                    label6.Text += "#";
+                    //label6.Text += "#";
                     string line = reader.ReadLine();
                     string[] values = line.Split(' ');
                     values = string_erase(values, "");
